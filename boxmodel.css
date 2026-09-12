@@ -1,0 +1,23 @@
+.heading1{
+    text-align: center;
+}
+.box1 {
+    color: blue;
+    border: 3px solid pink;
+    padding: 15px;
+    margin: 15px;
+}
+.box2{
+    color:cadetblue;
+    background-color:blanchedalmond;
+    border: 15px dotted brown;
+    padding: 50px;
+    margin: 100px;
+}
+.box3{
+    color: blueviolet;
+    background-color: lightpink;
+    border: 30px dashed blue;
+    padding: 100px;
+    margin: 10px;
+}
