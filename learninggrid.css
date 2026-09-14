@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 100px);
+}
+.container div{
+    border: 1px dotted black;
+}
+.box1{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
