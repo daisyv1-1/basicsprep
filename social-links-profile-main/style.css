@@ -24,6 +24,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 .card{
     margin: 1.5rem;
@@ -56,15 +57,24 @@ body{
 .bio{
     font-weight: 400;
     font-size: 14px;
-    color: white;
+    color: grey;
 }
 footer{
     text-align: center;
 }
-.buttons{
+button {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 19rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    margin: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.7rem;
 }
