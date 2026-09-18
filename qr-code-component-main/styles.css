@@ -1,0 +1,16 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem;
+}
+.card{
+    height: 20rem;
+    width: 22rem;
+    border: 1px solid black;
+    background-color: aliceblue;
+    box-shadow: 10cap;
+}
