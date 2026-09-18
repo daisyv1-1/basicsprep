@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.attribution{
+    font-size: 0.6875rem;
+    text-align: center;
+    padding: 1rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 1.5rem;
+    width: 21rem;
+    max-width: 100%;
+    background-color: hsl(0, 0%, 12%); /* White */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    text-align: center;
+}
+.image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.name{
+    font-weight: 400;
+    color: white;
+    font-size: 28px;
+}
+.location{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+}
+.bio{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+footer{
+    text-align: center;
+}
+.buttons{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
