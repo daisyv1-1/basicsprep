@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    color: aliceblue;
+    color: white;
 }
 
 .attribution{
@@ -24,13 +24,13 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 5rem;
 }
 .card{
     margin: 1.5rem;
     width: 21rem;
     max-width: 100%;
-    background-color: hsl(0, 0%, 12%); /* White */
+    background-color: hsl(0, 0%, 12%);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -77,4 +77,24 @@ button {
     font-weight: 400;
     font-size: 16px;
     padding: 0.7rem;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
+button:focus{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+    outline: none;
+}
+
+@media (min-width:600px){
+    .card{
+        width: 28rem;
+    }
+    button{
+        width: 2rem;
+    }
 }
